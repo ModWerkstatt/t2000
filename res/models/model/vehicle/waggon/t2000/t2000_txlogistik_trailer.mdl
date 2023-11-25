@@ -1,0 +1,1279 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 17.135, 1.6, 4.5, },
+		bbMin = { -17.135, -1.6, -0.03217, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				animations = { },
+				children = {
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/handbremse_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Hinten",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod0.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/gelenk_1_lod0.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},			
+							{	
+								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+								name = "Zugschluss",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, 0, -8.87, 0.65, 1.16, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+								name = "Zugschluss",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, 0, -8.79, -1.16, 1.16, 1, },
+							},
+						},
+						name = "Rumpf 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod0.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/gelenk_2_lod0.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},								
+						},
+						name = "Rumpf 2",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+				animations = { },
+				children = {
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Hinten",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod1.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/gelenk_1_lod1.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},	
+						},
+						name = "Rumpf 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod1.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/gelenk_2_lod1.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},								
+						},
+						name = "Rumpf 2",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				animations = { },
+				children = {
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell Hinten",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod2.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/gelenk_1_lod2.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+						},
+						name = "Rumpf 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod2.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},		
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_txlogistik.mtl", },
+								mesh = "vehicle/waggon/t2000/gelenk_2_lod2.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},								
+						},
+						name = "Rumpf 2",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+		{
+			node = {
+				animations = { },
+				children = {
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_wascosa2.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod3.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},	
+						},
+						name = "Rumpf 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+					},
+					{
+						animations = { },
+						children = {
+							{
+								materials = { "vehicle/waggon/t2000/rumpf_wascosa2.mtl", },
+								mesh = "vehicle/waggon/t2000/rumpf_lod3.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},							
+						},
+						name = "Rumpf 2",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1500,
+			visibleTo = 2500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2003,
+			yearTo = 0000,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("t2000_txlogistik_name_trailer"),
+			description = _("t2000_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 20, 21 },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					fakeBogies = {
+						{
+							group = 17,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 17,
+							offset = 0,
+							position = -14.2,
+						},
+						{
+							group = 22,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 22,
+							offset = 0,
+							position = 14.2,
+						},
+					},
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh", },
+					fakeBogies = {
+						{
+							group = 13,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 13,
+							offset = 0,
+							position = -14.2,
+						},
+						{
+							group = 16,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 16,
+							offset = 0,
+							position = 14.2,
+						},
+					},
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
+					fakeBogies = {
+						{
+							group = 13,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 13,
+							offset = 0,
+							position = -14.2,
+						},
+						{
+							group = 16,
+							offset = 0,
+							position = 0,
+						},
+						{
+							group = 16,
+							offset = 0,
+							position = 14.2,
+						},
+					},
+				},
+			},
+			engines = { },
+			soundSet = "mw_container",
+			topSpeed = 27.7778,
+			weight = 34,
+		},
+		cargoSlotProvider = {
+			slots = {		
+				{
+					models = { "vehicle/waggon/t2000/zapfen/zapfen_leer_aae.mdl", },
+					group = 17,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 0,
+				},	
+				{
+					models = { "vehicle/waggon/t2000/zapfen/zapfen_lkw_aae.mdl", },
+					group = 17,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = {
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ansorge.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_arcese.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_arcese2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_blue_water.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_carlsberg.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_cldn.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_db_cargo.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dfds.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dhl.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dissegna.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dsv.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_duvenbeck.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ekol.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ekol2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ewals.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_fercam.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ferrymasters.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_fixemer.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_grosse_vehne.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_grosse_vehne2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_gruber.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_heisterkamp.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_hhbode.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_hoptrans.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ikg.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_jost.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_jost2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_mars.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_mars2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_norfolkline.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_nothegger.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_petra.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_pno.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_rhenus.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_samskip.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_schenker.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_schweitzer.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_trans_italia.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_walter.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_wenzel.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_westerman.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_wetron.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_winner.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_dissegna.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_ekol.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_hessers.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_hhbode.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_paneuropa.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_westerman.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",	
+						},
+					group = 17,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.36, 1, },
+					randomId = 2,
+				},		
+				{
+					models = {
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ansorge.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_arcese.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_cldn.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_dsv.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ewals.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_fercam.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ferrymasters.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_fixemer.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_gruber.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_hangartner.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp2.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_hhbode.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_iemoli.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ikg.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_jost.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_nothegger.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_paneuropa.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_sae.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_schenker.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_transco.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_walter.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_wenzel.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_wetron.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_winner.mdl",
+						},
+					group = 17,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.27, 1, },
+					randomId = 3,
+				},	
+				-- compartment 2	
+				{
+					models = { "vehicle/waggon/t2000/zapfen/zapfen_leer_aae.mdl", },
+					group = 22,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 4,
+				},		
+				{
+					models = { "vehicle/waggon/t2000/zapfen/zapfen_lkw_aae.mdl", },
+					group = 22,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 5,
+				},
+				{
+					models = {
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ansorge.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_arcese.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_arcese2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_blue_water.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_carlsberg.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_cldn.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_db_cargo.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dfds.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dhl.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dissegna.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_dsv.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_duvenbeck.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ekol.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ekol2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ewals.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_fercam.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ferrymasters.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_fixemer.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_grosse_vehne.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_grosse_vehne2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_gruber.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_heisterkamp.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_hhbode.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_hoptrans.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_ikg.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_jost.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_jost2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_mars.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_mars2.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_norfolkline.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_nothegger.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_petra.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_pno.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_rhenus.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_samskip.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_schenker.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_schweitzer.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_trans_italia.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_walter.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_wenzel.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_westerman.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_wetron.mdl",
+						"asset/trailer_mw/krone_megaliner/krone_megaliner_winner.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_dissegna.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_ekol.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_hessers.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_hhbode.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_paneuropa.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_westerman.mdl",
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",	
+						},
+					group = 22,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.36, 1, },
+					randomId = 6,
+				},		
+				{
+					models = {
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ansorge.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_arcese.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_cldn.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_dsv.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ewals.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_fercam.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ferrymasters.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_fixemer.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_gruber.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_hangartner.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp2.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_hhbode.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_iemoli.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_ikg.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_jost.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_nothegger.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_paneuropa.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_sae.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_schenker.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_transco.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_walter.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_wenzel.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_wetron.mdl",
+						"asset/trailer_mw/krone_profiliner/krone_trailer_winner.mdl",
+						},
+					group = 22,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.27, 1, },
+					randomId = 7,
+				},	
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "PLANKS",
+						},
+					},					
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "PLASTIC",
+						},
+					},		
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "STEEL",
+						},
+					},		
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "TOOLS",
+						},
+					},	
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "FUEL",
+						},
+					},	
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 2 },							
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },	
+											{ 1 },		
+											{ 1, 3 },							
+										},
+									},
+								},
+							},
+							type = "OIL",
+						},
+					},
+				},
+				-- compartment 2
+				{
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "PLANKS",
+						},
+					},					
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "PLASTIC",
+						},
+					},		
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "STEEL",
+						},
+					},		
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "TOOLS",
+						},
+					},	
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "FUEL",
+						},
+					},	
+					{
+						{
+							capacity = 70,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 6 },								
+										},
+									},
+									{
+										slotLevels = {
+											{ 4 },	
+											{ 5 },		
+											{ 5, 7 },								
+										},
+									},
+								},
+							},
+							type = "OIL",
+						},
+					},
+				},
+			},
+			loadSpeed = 6,
+			maxVolume = 100,
+			maxWeight = 135,
+			multipleUnitOnly = false,
+			reversible = false,
+			groupFileName = "vehicle/waggon/t2000/t2000_menu.mdl",
+		},
+	},
+	version = 1,
+}
+end
