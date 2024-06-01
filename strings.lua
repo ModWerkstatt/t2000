@@ -2,13 +2,13 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "T2000 Sdggmrs(s)",
+		["mod_name"] = "Sdggmrs(s) Megapack (T2000)",
 		["mod_desc"] = "As the maximum weight of semi-trailers was raised to 40 tonnes throughout Europe in 1985, and to 44 tonnes for pre-carriage and on-carriage CT traffic, new pocket wagons with a higher payload had to be procured. The T2000 was further developed from the Sdggnos 744 procured in 1987, and from 1997 the T2000 was built in larger numbers.",
 
 		["option_fake_wagen_desc"] = "Should the fake versions of the T2000 Sdggmrs(s) be available in the game?",
 		["Fake_t2000_wagen"] = "Activate fake versions?",
 
-        ["t2000_menu"] = "T2000 Sdggmrs(s)",
+        ["t2000_menu"] = "Sdggmrs(s) T2000",
 		["t2000_aae_name"] = "Sdggmrss AAE (1997)",
 		["t2000_kombiverkehr_name"] = "Sdggmrs Kombiverkehr (1997)",
 		["t2000_txlogistik_name"] = "Sdggmrs TX Logsitik (2003)",
@@ -31,7 +31,7 @@ return {
 		["t2000_wascosa2_name_trailer"] = "Sdggmrs Wascosa black (2008) Trailer",
 
 		--- Fake ---
-        ["t2000_menu_fake"] = "T2000 Sdggmrs(s) Fake",
+        ["t2000_menu_fake"] = "Sdggmrs(s) T2000 Fake",
 		["t2000_aae_name_fake"] = "Sdggmrss AAE (1997) Fake",
 		["t2000_kombiverkehr_name_fake"] = "Sdggmrs Kombiverkehr (1997) Fake",
 		["t2000_txlogistik_name_fake"] = "Sdggmrs TX Logsitik (2003) Fake",
@@ -55,13 +55,13 @@ return {
 	},
 	de = {
 
-		["mod_name"] = "Sdggmrs(s) T2000",
+		["mod_name"] = "Sdggmrs(s) Megapack (T2000)",
 		["mod_desc"] = "Da 1985 Europa weit das Höchstgewicht von Sattelauflieger 40 t bzw. bei Vor- und Nachlauf des KV-Verkehrs auf 44 t angehoben wurde, mussten neue Taschenwagen mit einer höheren Nutzlast beschafft werden. Der T2000 wurde aus den 1987 beschafften Sdggnos 744 weiterentwickelt, ab 1997 wurde der T2000 in größerer Stückzahl gebaut.",
 
 		["option_fake_wagen_desc"] = "Sollen die Fake-Versionen des T2000 Sdggmrs(s) verfügbar sein im Spiel?",
 		["Fake_t2000_wagen"] = "Fake-Versionen aktivieren?",
 
-        ["t2000_menu"] = "T200 Sdggmrs(s)",
+        ["t2000_menu"] = "Sdggmrs(s) T2000",
 		["t2000_aae_name"] = "Sdggmrss AAE (1997)",
 		["t2000_kombiverkehr_name"] = "Sdggmrs Kombiverkehr (1997)",
 		["t2000_txlogistik_name"] = "Sdggmrs TX Logsitik (2003)",
@@ -84,7 +84,7 @@ return {
 		["t2000_wascosa2_name_trailer"] = "Sdggmrs Wascosa schwarz (2008) Trailer",
 
 		--- Fake ---
-        ["t2000_menu_fake"] = "T200 Sdggmrs(s) Fake",
+        ["t2000_menu_fake"] = "Sdggmrs(s) T2000 Fake",
 		["t2000_aae_name_fake"] = "Sdggmrss AAE (1997) Fake",
 		["t2000_kombiverkehr_name_fake"] = "Sdggmrs Kombiverkehr (1997) Fake",
 		["t2000_txlogistik_name_fake"] = "Sdggmrs TX Logsitik (2003) Fake",
