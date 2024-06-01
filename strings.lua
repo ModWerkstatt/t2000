@@ -8,7 +8,7 @@ return {
 		["option_fake_wagen_desc"] = "Should the fake versions of the T2000 Sdggmrs(s) be available in the game?",
 		["Fake_t2000_wagen"] = "Activate fake versions?",
 
-        ["t2000_menu"] = "T200 Sdggmrs(s)",
+        ["t2000_menu"] = "T2000 Sdggmrs(s)",
 		["t2000_aae_name"] = "Sdggmrss AAE (1997)",
 		["t2000_kombiverkehr_name"] = "Sdggmrs Kombiverkehr (1997)",
 		["t2000_txlogistik_name"] = "Sdggmrs TX Logsitik (2003)",
@@ -31,7 +31,7 @@ return {
 		["t2000_wascosa2_name_trailer"] = "Sdggmrs Wascosa black (2008) Trailer",
 
 		--- Fake ---
-        ["t2000_menu_fake"] = "T200 Sdggmrs(s) Fake",
+        ["t2000_menu_fake"] = "T2000 Sdggmrs(s) Fake",
 		["t2000_aae_name_fake"] = "Sdggmrss AAE (1997) Fake",
 		["t2000_kombiverkehr_name_fake"] = "Sdggmrs Kombiverkehr (1997) Fake",
 		["t2000_txlogistik_name_fake"] = "Sdggmrs TX Logsitik (2003) Fake",
@@ -104,7 +104,6 @@ return {
 		["t2000_wascosa_name_trailer_fake"] = "Sdggmrs Wascosa orange (2008) Trailer Fake",
 		["t2000_wascosa2_name_container_fake"] = "Sdggmrs Wascosa schwarz (2008) Container Fake",
 		["t2000_wascosa2_name_trailer_fake"] = "Sdggmrs Wascosa schwarz (2008) Trailer Fake",
-
 
 	},
 }
