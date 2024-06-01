@@ -121,14 +121,14 @@ return {
 								mesh = "vehicle/waggon/t2000/rumpf_lod0.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 							{
 								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/gelenk_1_lod0.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},			
-							{	
+							},
+							{
 								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 								name = "Zugschluss",
@@ -152,13 +152,13 @@ return {
 								mesh = "vehicle/waggon/t2000/rumpf_lod0.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 							{
 								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/gelenk_2_lod0.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},								
+							},
 						},
 						name = "Rumpf 2",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
@@ -258,13 +258,13 @@ return {
 								mesh = "vehicle/waggon/t2000/rumpf_lod1.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 							{
 								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/gelenk_1_lod1.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},	
+							},
 						},
 						name = "Rumpf 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
@@ -277,13 +277,13 @@ return {
 								mesh = "vehicle/waggon/t2000/rumpf_lod1.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 							{
 								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/gelenk_2_lod1.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},								
+							},
 						},
 						name = "Rumpf 2",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
@@ -383,13 +383,13 @@ return {
 								mesh = "vehicle/waggon/t2000/rumpf_lod2.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 							{
 								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/gelenk_1_lod2.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 						},
 						name = "Rumpf 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
@@ -402,13 +402,13 @@ return {
 								mesh = "vehicle/waggon/t2000/rumpf_lod2.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},		
+							},
 							{
 								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/gelenk_2_lod2.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},								
+							},
 						},
 						name = "Rumpf 2",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
@@ -429,11 +429,11 @@ return {
 						animations = { },
 						children = {
 							{
-								materials = { "vehicle/waggon/t2000/rumpf_wascosa2.mtl", },
+								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/rumpf_lod3.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},	
+							},
 						},
 						name = "Rumpf 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
@@ -442,11 +442,11 @@ return {
 						animations = { },
 						children = {
 							{
-								materials = { "vehicle/waggon/t2000/rumpf_wascosa2.mtl", },
+								materials = { "vehicle/waggon/t2000/rumpf_kombiverkehr.mtl", },
 								mesh = "vehicle/waggon/t2000/rumpf_lod3.msh",
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},							
+							},
 						},
 						name = "Rumpf 2",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
@@ -569,25 +569,25 @@ return {
 			weight = 34,
 		},
 		cargoSlotProvider = {
-			slots = {		
+			slots = {
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_leer_aae.mdl", },
 					group = 17,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 0,
-				},	
+				},
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_20ft_aae.mdl", },
 					group = 17,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 1,
-				},	
+				},
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_40ft_aae.mdl", },
 					group = 17,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 2,
-				},	
+				},
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_lkw_aae.mdl", },
 					group = 17,
@@ -1113,12 +1113,12 @@ return {
 						"asset/trailer_mw/krone_coolliner/krone_coolliner_hhbode.mdl",
 						"asset/trailer_mw/krone_coolliner/krone_coolliner_paneuropa.mdl",
 						"asset/trailer_mw/krone_coolliner/krone_coolliner_westerman.mdl",
-						"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",	
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",
 						},
 					group = 17,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.36, 1, },
 					randomId = 10,
-				},		
+				},
 				{
 					models = {
 						"asset/trailer_mw/krone_profiliner/krone_trailer_ansorge.mdl",
@@ -1151,26 +1151,26 @@ return {
 					group = 17,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.27, 1, },
 					randomId = 11,
-				},	
-				-- compartment 2	
+				},
+				-- compartment 2
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_leer_aae.mdl", },
 					group = 22,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 12,
-				},	
+				},
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_20ft_aae.mdl", },
 					group = 22,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 13,
-				},	
+				},
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_40ft_aae.mdl", },
 					group = 22,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					randomId = 15,
-				},	
+				},
 				{
 					models = { "vehicle/waggon/t2000/zapfen/zapfen_lkw_aae.mdl", },
 					group = 22,
@@ -1696,12 +1696,12 @@ return {
 						"asset/trailer_mw/krone_coolliner/krone_coolliner_hhbode.mdl",
 						"asset/trailer_mw/krone_coolliner/krone_coolliner_paneuropa.mdl",
 						"asset/trailer_mw/krone_coolliner/krone_coolliner_westerman.mdl",
-						"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",	
+						"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",
 						},
 					group = 22,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.36, 1, },
 					randomId = 22,
-				},		
+				},
 				{
 					models = {
 						"asset/trailer_mw/krone_profiliner/krone_trailer_ansorge.mdl",
@@ -1734,7 +1734,7 @@ return {
 					group = 22,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.27, 1, },
 					randomId = 23,
-				},	
+				},
 			},
 		},
 		transportVehicle = {
@@ -1748,17 +1748,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
@@ -1773,17 +1773,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
@@ -1798,17 +1798,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
@@ -1823,17 +1823,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
@@ -1848,24 +1848,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
 							},
 							type = "PLANKS",
 						},
-					},					
+					},
 					{
 						{
 							capacity = 70,
@@ -1873,24 +1873,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
 							},
 							type = "PLASTIC",
 						},
-					},		
+					},
 					{
 						{
 							capacity = 70,
@@ -1898,24 +1898,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
 							},
 							type = "STEEL",
 						},
-					},		
+					},
 					{
 						{
 							capacity = 70,
@@ -1923,24 +1923,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 4 },	
-											{ 1, 4, 5 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 4 },
+											{ 1, 4, 5 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 6 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 6 },
 										},
 									},
 								},
 							},
 							type = "TOOLS",
 						},
-					},	
+					},
 					{
 						{
 							capacity = 70,
@@ -1948,24 +1948,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 7 },			
-											{ 1, 7, 8 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 7 },
+											{ 1, 7, 8 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 9 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 9 },
 										},
 									},
 								},
 							},
 							type = "FUEL",
 						},
-					},	
+					},
 					{
 						{
 							capacity = 70,
@@ -1973,17 +1973,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 1 },		
-											{ 1, 7 },			
-											{ 1, 7, 8 },							
+											{ 0 },
+											{ 1 },
+											{ 1, 7 },
+											{ 1, 7, 8 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 0 },	
-											{ 2 },		
-											{ 2, 9 },							
+											{ 0 },
+											{ 2 },
+											{ 2, 9 },
 										},
 									},
 								},
@@ -2001,17 +2001,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
@@ -2026,17 +2026,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
@@ -2051,17 +2051,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
@@ -2076,17 +2076,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
@@ -2101,24 +2101,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
 							},
 							type = "PLANKS",
 						},
-					},					
+					},
 					{
 						{
 							capacity = 70,
@@ -2126,24 +2126,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
 							},
 							type = "PLASTIC",
 						},
-					},		
+					},
 					{
 						{
 							capacity = 70,
@@ -2151,24 +2151,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
 							},
 							type = "STEEL",
 						},
-					},		
+					},
 					{
 						{
 							capacity = 70,
@@ -2176,24 +2176,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 16 },		
-											{ 13, 16, 17 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 16 },
+											{ 13, 16, 17 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 18 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 18 },
 										},
 									},
 								},
 							},
 							type = "TOOLS",
 						},
-					},	
+					},
 					{
 						{
 							capacity = 70,
@@ -2201,24 +2201,24 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 19 },		
-											{ 13, 19, 20 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 19 },
+											{ 13, 19, 20 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 21 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 21 },
 										},
 									},
 								},
 							},
 							type = "FUEL",
 						},
-					},	
+					},
 					{
 						{
 							capacity = 70,
@@ -2226,17 +2226,17 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 13 },		
-											{ 13, 19 },		
-											{ 13, 19, 20 },										
+											{ 12 },
+											{ 13 },
+											{ 13, 19 },
+											{ 13, 19, 20 },
 										},
 									},
 									{
 										slotLevels = {
-											{ 12 },	
-											{ 14 },		
-											{ 14, 21 },										
+											{ 12 },
+											{ 14 },
+											{ 14, 21 },
 										},
 									},
 								},
